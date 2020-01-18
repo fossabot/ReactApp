@@ -18,6 +18,7 @@
     "front-eject": "react-scripts eject",
     "backend-start": "node-env-run backend --exec nodemon | pino-colada",
     "stack": "run-p backend-start front-start"
+	"start": "run-p backend-start front-start"
   },
   "eslintConfig": {
     "extends": "react-app"
